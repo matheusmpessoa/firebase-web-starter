@@ -13,7 +13,27 @@
 
 <body>
 
-    <h1>Hello World Firebase</h1>
+    <h1>Real time database</h1>
+
+    <ul id="usersList"></ul>
+    <hr>
+
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="nameInput">Nome</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Digite seu nome">
+            </div>
+            <div class="form-group">
+                <label for="ageInput">Idade</label>
+                <input type="number" class="form-control" id="ageInput" placeholder="Digite sua idade">
+            </div>
+            <button class="btn btn-lg btn-block btn-primary" id="addButton">Adicionar</button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <a href="index.html">Voltar para home</a>
 
     <!-- jquery -->
     <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
@@ -23,6 +43,8 @@
     <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
     <!-- js local -->
     <script src="js/app.js"></script>
+    <!-- real time database -->
+    <script src="js/real-time-database.js"></script>
 </body>
 
 </html>
