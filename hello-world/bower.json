@@ -1,0 +1,24 @@
+{
+  "name": "firebase-project",
+  "description": "Projeto firebase",
+  "main": "index.js",
+  "authors": [
+    "Matheus Pessoa"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Firebase"
+  ],
+  "homepage": "https://github.com/matheusmpessoa/firebase-web-starter",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "^3.4.1"
+  }
+}
