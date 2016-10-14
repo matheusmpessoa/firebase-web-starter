@@ -16,3 +16,4 @@ Repositório para iniciar com o banco de dados firebase.
 
 ## Aplicações criadas
 * Real time database
+* Authentication
